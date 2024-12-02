@@ -186,40 +186,53 @@ label {
 /* Responsive Design for Mobile */
 @media screen and (max-width: 600px) {
     body, html {
-        font-size: 14px; 
+        font-size: 14px;
     }
 
     h1 {
-        font-size: 1.8rem; 
+        font-size: 1.8rem;
     }
 
     .container {
         margin: 20px auto;
         padding: 15px;
-    }
-
-    .city-buttons-row {
-        flex-direction: column; 
-        gap: 15px; 
-    }
-
-    .city-btn {
-        padding: 10px 8px;
-        font-size: 1rem; 
-        margin: 0; 
-        flex: none; 
+        overflow: visible; 
     }
 
     .country-section {
         margin-top: 20px;
+        overflow: visible; 
     }
 
     .scrollable-select {
-        font-size: 0.9rem; 
+        width: 100%;
+        max-height: 150px; 
+        overflow-y: auto; 
+        font-size: 0.9rem;
+        border-radius: 8px;
+        border: none;
+        background: #fff;
+        color: #333;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 10; 
+    }
+
+    .city-buttons-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .city-btn {
+        padding: 10px 8px;
+        font-size: 1rem;
+        margin: 0;
+        flex: none;
     }
 
     .weather-info {
-        padding: 15px; 
+        padding: 15px;
         margin-top: 20px;
     }
 
@@ -232,14 +245,14 @@ label {
     }
 
     .weather-info p {
-        font-size: 0.9rem; 
+        font-size: 0.9rem;
     }
 
     .weather-image {
-        width: 50px; 
-        height: 50px; 
-        top: 10px; 
-        left: 10px; 
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
     }
 
     .weekly-forecast {
@@ -251,11 +264,11 @@ label {
     }
 
     #forecast-table {
-        font-size: 0.85rem; 
+        font-size: 0.85rem;
     }
 
     #forecast-table th, #forecast-table td {
-        padding: 8px; 
+        padding: 8px;
     }
 
     #forecast-table th {
@@ -264,6 +277,6 @@ label {
 
     #forecast-table tr:nth-child(even),
     #forecast-table tr:nth-child(odd) {
-        background-color: #f8f8f8; 
+        background-color: #f8f8f8;
     }
 }
