@@ -1,10 +1,10 @@
 This is a simple version of the online weather web mobile application
 
-In this weather application the weather informations will be get into using the OpenWeatherMap API Key
+In this weather web application the real weather informations of the world countries will be get into using the OpenWeatherMap API Key
 
 Major key point of this app is  HTTP GET protocol to fetch the current weather data for the user selected cities
 
-                      Screen Shots Of The Weather Mobile Web Application
+         Screen Shots Of The Weather Mobile Web Application
 
 ![Screenshot 2024-12-02 204357](https://github.com/user-attachments/assets/09d12bbf-1628-432f-83a3-ad803abf18d9)
 
