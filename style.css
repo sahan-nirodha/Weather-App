@@ -185,20 +185,78 @@ label {
 
 /* Responsive Design for Mobile */
 @media screen and (max-width: 600px) {
+    body, html {
+        font-size: 14px; 
+    }
+
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem; 
+    }
+
+    .container {
+        margin: 20px auto;
+        padding: 15px;
     }
 
     .city-buttons-row {
-        flex-direction: column;
+        flex-direction: column; 
+        gap: 15px; 
     }
 
     .city-btn {
-        padding: 10px;
-        font-size: 0.9rem;
+        padding: 10px 8px;
+        font-size: 1rem; 
+        margin: 0; 
+        flex: none; 
+    }
+
+    .country-section {
+        margin-top: 20px;
+    }
+
+    .scrollable-select {
+        font-size: 0.9rem; 
+    }
+
+    .weather-info {
+        padding: 15px; 
+        margin-top: 20px;
+    }
+
+    .weather-info h2 {
+        font-size: 2rem;
+    }
+
+    .weather-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .weather-info p {
+        font-size: 0.9rem; 
+    }
+
+    .weekly-forecast {
+        padding: 15px;
+    }
+
+    .weekly-forecast h3 {
+        font-size: 1.5rem;
     }
 
     #forecast-table {
-        font-size: 0.9rem;
+        font-size: 0.85rem; 
+    }
+
+    #forecast-table th, #forecast-table td {
+        padding: 8px; 
+    }
+
+    #forecast-table th {
+        font-size: 1rem;
+    }
+
+    #forecast-table tr:nth-child(even),
+    #forecast-table tr:nth-child(odd) {
+        background-color: #f8f8f8; 
     }
 }
